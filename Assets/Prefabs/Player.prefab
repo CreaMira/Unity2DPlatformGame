@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2434309852107938576}
   - component: {fileID: 2434309852107938581}
   - component: {fileID: 2434309852107938577}
-  - component: {fileID: 4012758256677098597}
   - component: {fileID: 2434309852107938578}
   - component: {fileID: 3427799117468950560}
   - component: {fileID: 8274535764816992057}
@@ -20,6 +19,7 @@ GameObject:
   - component: {fileID: 291599140306688590}
   - component: {fileID: 4917588456040379112}
   - component: {fileID: 698726267730746971}
+  - component: {fileID: 2437943688328362379}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -137,22 +137,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &4012758256677098597
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2434309852107938591}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0055862665, y: -0.2757728}
-  m_Size: {x: 0.9865868, y: 1.4484544}
-  m_Direction: 0
 --- !u!114 &2434309852107938578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -601,6 +585,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!61 &2437943688328362379
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2434309852107938591}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.042902708, y: -0.24311605}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9989339, y: 1.3993604}
+  m_EdgeRadius: 0
 --- !u!1 &8133136845192292099
 GameObject:
   m_ObjectHideFlags: 0
